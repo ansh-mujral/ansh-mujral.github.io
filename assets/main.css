@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Monaco', 'Courier New', monospace;
     margin: 0;
     padding: 0;
     background-image: url('bg.png');
@@ -123,4 +123,19 @@ li a {
     color: black;
     text-decoration: underline;
     padding: 10px 20px;
+}
+.Projects ol {
+    counter-reset: list-counter;
+    list-style-type: none;
+    padding: 0;
+}
+
+.Projects ol li {
+    counter-increment: list-counter;
+    margin-bottom: 10px;
+}
+
+.Projects ol li::before {
+    content: counter(list-counter) ". ";
+    font-weight: bold;
 }
