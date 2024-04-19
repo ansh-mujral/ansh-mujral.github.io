@@ -28,7 +28,7 @@
         {
             title: 'Recipes and Ratings Exploratory Data Analysis Project',
             content: `yap`,
-            // content: `This project involves an in-depth exploratory data analysis of a Recipes and Ratings dataset. By applying various statistical methods and visualization techniques, I uncovered insightful trends and patterns that could significantly impact culinary practices and preferences.`,
+            content: `This project involves an in-depth exploratory data analysis of a Recipes and Ratings dataset. By applying various statistical methods and visualization techniques, I uncovered insightful trends and patterns that could significantly impact culinary practices and preferences.`,
             imageUrl: 'RReda.png',
             imageClass: 'project-image',
             projTitle: 'Check out my Recipes and Ratings EDA here!',
@@ -38,7 +38,7 @@
         },
         {
             title: 'Recipes and Ratings Pipelines and Modeling Project',
-            // content: `Focusing on automating data processing and modeling for the Recipes and Ratings dataset, this project streamlines the workflow through pipelines. The goal was to enhance efficiency and reproducibility, ensuring that the data analysis process is more structured and accessible.`,
+            content: `Focusing on automating data processing and modeling for the Recipes and Ratings dataset, this project streamlines the workflow through pipelines. The goal was to enhance efficiency and reproducibility, ensuring that the data analysis process is more structured and accessible.`,
             content: `yap`,
             imageUrl: 'RRmodel.png', 
             imageClass: 'project-image',
@@ -49,7 +49,7 @@
         },
         {
             title: 'LeGOAT: The LeBron James\'s Career Narrative',
-            // content: `A captivating scrollytelling narrative that explores the illustrious career of LeBron James. Using D3.js for interactive storytelling, this project presents LeBron's journey from a promising young talent to one of the greatest basketball players of all time.`,
+            content: `A captivating scrollytelling narrative that explores the illustrious career of LeBron James. Using D3.js for interactive storytelling, this project presents LeBron's journey from a promising young talent to one of the greatest basketball players of all time.`,
             content: `yap`,
             imageUrl: 'LeGoat.png',
             imageClass: 'project-image',
@@ -60,7 +60,7 @@
         },
         {
             title: 'PowerAtlas: Navigating Global Energy Consumption',
-            // content: `PowerAtlas offers an immersive exploration of global energy consumption patterns through interactive data visualizations. This project was designed to provide insights into how different countries consume energy, using advanced data analysis and D3.js to create an engaging, interactive web experience. It highlights the disparities in energy usage and the impact of renewable energy sources across the globe.`,
+            content: `PowerAtlas offers an immersive exploration of global energy consumption patterns through interactive data visualizations. This project was designed to provide insights into how different countries consume energy, using advanced data analysis and D3.js to create an engaging, interactive web experience. It highlights the disparities in energy usage and the impact of renewable energy sources across the globe.`,
             content: `yap`,
             imageUrl: 'PowerAtlas.png',
             imageClass: 'project-image',
@@ -71,7 +71,7 @@
         },
         {
             title: 'Valorant EDA: Analyzing the Skill Gap',
-            // content: `This exploratory data analysis (EDA) dives deep into the competitive world of Valorant, analyzing the skill gap between individual players from different regions. By scrutinizing player data and performance metrics, this project sheds light on the factors that contribute to a player's success and how different regions compare in terms of skill level and competitive play style.`,
+            content: `This exploratory data analysis (EDA) dives deep into the competitive world of Valorant, analyzing the skill gap between individual players from different regions. By scrutinizing player data and performance metrics, this project sheds light on the factors that contribute to a player's success and how different regions compare in terms of skill level and competitive play style.`,
             content: `yap`,
             imageUrl: 'LeGoat.png',
             imageClass: 'project-image',
