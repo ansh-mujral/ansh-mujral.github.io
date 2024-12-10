@@ -3,87 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ansh Mujral</title>
-    <link rel="stylesheet" href="assets/main.css">
+    <title>Ansh Mujral | Data Scientist</title>
+    <!-- Add Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
-    <header class="main-header">
-        <h1>Ansh Mujral</h1>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header Section -->
+    <header class="bg-gray-900 text-white p-6 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Ansh Mujral</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="container">
-        <div class="left-column">
-            <img src="images/meee.png" alt="Your Name" class="profile-photo">
-            <p class="description">
-                Hi! Welcome to my website. I am a graduating third-year Data Science major at UC San Diego.<br><br>
-                My journey in Data Science and Machine Learning is fueled by a profound passion, and my goal is to leverage these skills for the betterment of society. If you have any questions, comments, or simply want to engage in a conversation, feel free to drop me an email. I'm always open to connecting and discussing the exciting world of data!
-            </p>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <img src="images/meee.png" alt="Your Name" class="w-40 h-40 rounded-full shadow-lg">
+            <div class="md:ml-10 mt-6 md:mt-0">
+                <h2 class="text-3xl font-bold">Hi, I'm Ansh Mujral</h2>
+                <p class="mt-4 text-lg leading-relaxed">
+                    I'm a passionate Data Science and Machine Learning enthusiast from UC San Diego.
+                    My goal is to leverage data for societal betterment. Let's connect and discuss the exciting world of data!
+                </p>
+            </div>
         </div>
-        <div class="right-column">
-            <section class="projects">
-                <h2>Personal Projects</h2>
-				<h4> Hover over or click to check out the project website and code</h4>
-                <div class="project-grid">
-                    <div class="project-item">
-                        <a href="https://keenans04.github.io/RecipesAndRatings/" title="Exploratory Data Analysis">
-                            Exploratory Data Analysis Project on Recipes and Ratings Dataset
-                            <div class="more-info">
-                                Detailed description about the Exploratory Data Analysis project on Recipes and Ratings Dataset.
-                            </div>
-                        </a>
-                    </div>
-                    <div class="project-item">
-                        <a href="https://keenans04.github.io/WhatsTheRating/" title="Pipelines and Modeling">
-                            Pipelines and Modeling Project on Recipes and Ratings Dataset
-                            <div class="more-info">
-                                Implemented ETL pipelines and used A/B testing to process and analyze large datasets of food recipes and ratings.
-                            </div>
-                        </a>
-                    </div>
-                    <div class="project-item">
-                        <a href="https://keenans04.github.io/LeGOAT/" title="D3 Interactive Scrollytelling">
-                            Scrollytelling Narrative on LeBron James
-                            <div class="more-info">
-                                Created a interactive Scrollytelling website on the career arc of Lebron James.
-                            </div>
-                        </a>
-                    </div>
-                    <div class="project-item">
-                        <a href="https://keenans04.github.io/PowerAtlas/" title="Interactive D3 Website">
-                            PowerAtlas: Navigating Global Energy Consumption
-                            <div class="more-info">
-                                Displayed global energy consumption in an interactive map visualization website.
-                            </div>
-                        </a>
-                    </div>
-                    <div class="project-item">
-                        <a href="https://github.com/ansh-mujral/Valorant_EDA" title="Valorant EDA">
-                            Exploring the skill gap between individual players from different regions in VALORANT
-                            <div class="more-info">
-                                Utilized ETL processes to extract, transform, and load Valorant tournament data, assessing skill gaps between regions.
-                            </div>
-                        </a>
-                    </div>
-					<div class="project-item">
-                        <a href="https://github.com/ansh-mujral" title="github">
-                            Github
-                            <div class="more-info">
-                                Check out my Github repositories for more information on my projects.
-                            </div>
-                        </a>
-                    </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center">Personal Projects</h2>
+            <div class="grid gap-6 mt-10 md:grid-cols-3">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <a href="https://keenans04.github.io/RecipesAndRatings/" class="text-xl font-semibold hover:text-gray-700">
+                        Exploratory Data Analysis Project
+                    </a>
+                    <p class="mt-4 text-gray-600">Detailed exploration of recipes and ratings datasets.</p>
                 </div>
-            </section>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <a href="https://keenans04.github.io/WhatsTheRating/" class="text-xl font-semibold hover:text-gray-700">
+                        Pipelines and Modeling Project
+                    </a>
+                    <p class="mt-4 text-gray-600">Built ETL pipelines and conducted A/B testing.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <a href="https://keenans04.github.io/LeGOAT/" class="text-xl font-semibold hover:text-gray-700">
+                        Scrollytelling Narrative on LeBron James
+                    </a>
+                    <p class="mt-4 text-gray-600">Interactive website showcasing LeBron's career arc.</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <footer class="main-footer">
-        <ul class="icons">
-            <li><a href="mailto:amujral@ucsd.com" title="Email"><i class="fas fa-envelope"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/amujral/" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/ansh-mujral" title="Github"><i class="fab fa-github"></i></a></li>
-            <li><a href="assets/AnshMujralResume_Aug2024.pdf" title="Resume"><i class="fas fa-file-text"></i></a></li>
-        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Get in Touch</h2>
+            <p class="mt-4">Feel free to reach out through the links below.</p>
+            <div class="flex justify-center mt-6 space-x-6">
+                <a href="mailto:amujral@ucsd.com" class="text-gray-600 hover:text-gray-900">
+                    <i class="fas fa-envelope text-2xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/amujral/" class="text-gray-600 hover:text-gray-900">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://github.com/ansh-mujral" class="text-gray-600 hover:text-gray-900">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <a href="assets/AnshMujralResume_Aug2024.pdf" class="text-gray-600 hover:text-gray-900">
+                    <i class="fas fa-file-text text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
         <p>&copy; 2024 Ansh Mujral. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
